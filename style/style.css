@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Jua&display=swap");
+
+body {
+	font-family: "Jua", sans-serif;
+	background-color: rgba(56, 55, 50, 1);
+	color: aliceblue;
+	overflow-x: hidden;
+}
+
+nav {
+	font-family: "Jua", sans-serif;
+}
+
+p {
+	color: rgb(230, 223, 223);
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.nav-container {
+	padding: 0;
+}
+
+h2,
+h3 {
+	margin-bottom: 20px;
+}
+
+title {
+	font-family: "Jua", sans-serif;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-default {
+	background-color: rgb(41, 40, 37);
+	border-color: rgb(41, 40, 37);
+}
+
+.navbar-brand img {
+	width: 200px;
+	position: relative;
+}
+
+.nav a {
+	height: 80px;
+	line-height: 50px !important;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-header {
+		height: 80px;
+	}
+}
+
+#top_carousel {
+	position: relative;
+	top: -20px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+
+.glyphicon-chevron-left {
+	width: 24px;
+	height: 50px !important;
+	background-image: url(../img/left.png);
+	background-repeat: no-repeat;
+}
+.glyphicon-chevron-right {
+	width: 24px;
+	height: 50px !important;
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+}
+
+.carousel-caption {
+	top: 25%;
+	left: 55%;
+	width: 40%;
+}
+
+.carousel-caption mark {
+	background-color: rgb(29, 23, 117);
+	color: white;
+	text-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: rgb(179, 202, 153);
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: white;
+	color: rgb(36, 105, 71);
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+	color: white;
+}
+
+#icon_contents_01 {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.app_introduce {
+	padding-bottom: 30px;
+}
+
+.parallax {
+	width: 100%;
+	min-height: 300px;
+	background: transparent;
+}
+
+.panel-body {
+	color: rgb(105, 96, 102);
+}
+
+.footer {
+	width: 100%;
+	height: 140px;
+	margin-top: 50px;
+	background-color: rgb(122, 114, 102);
+}
+
+.footer p {
+	margin-top: 22px;
+	color: white;
+}
+
+.series_text {
+	padding-top: 23px;
+}
+
+.series_text2 {
+	padding-bottom: 65px;
+}
+
+.navbar-toggle {
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.btn-buy {
+	background-color: rgb(31, 92, 61);
+	color: white;
+}
+
+.btn-buy:hover {
+	background-color: teal;
+	color: white;
+}
+
+.parallax_02 .text-center {
+	position: relative;
+	top: 50px;
+	filter: drop-shadow(2px 2px 5px black);
+}
+
+.parallax_02 h2 {
+	margin-bottom: 10px;
+}
+
+.caption p {
+	color: rgb(122, 114, 102);
+}
+
+.btn-contact {
+	background-color: rgb(255, 255, 255);
+	color: rgb(122, 114, 102);
+}
+
+.btn-contact:hover {
+	background-color: rgb(226, 222, 222);
+	color: black;
+}
